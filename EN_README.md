@@ -1,5 +1,5 @@
 # AlistCustomStyle
-**English** | [中文](https://github.com/maytom2016/AlistCustomStyle/blob/main/EN_README%20.md)
+**English** | [中文](https://github.com/maytom2016/AlistCustomStyle/blob/main/README.md)
 ## Preview
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/maytom2016/AlistCustomStyle/blob/master/LICENSE)
 ![GitHub Stars](https://img.shields.io/github/stars/maytom2016/AlistCustomStyle?style=flat-square&label=Stars&logo=github)
