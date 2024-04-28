@@ -1,0 +1,53 @@
+<div class="line" ><div class="hope-c-PJLV hope-c-PJLV-iicyfOA-css"><div class="boxboard"><p class="hope-anchor hope-c-iHuheP hope-c-PJLV hope-c-PJLV-idrWMwW-css" id="time1" rel="noopener noreferrer"></p><span>|</span><a class="hope-anchor hope-c-iHuheP hope-c-PJLV hope-c-PJLV-idrWMwW-css" href="/@manage" target="_self">管理</a></div></div></div>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+          .hope-ui-light div.boxboard{
+            display: flex;
+            flex:1
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+           background-color: #ffffff72 !important;
+           backdrop-filter: blur(8px);
+           border-radius: 10px !important
+        }
+          .hope-ui-dark div.boxboard{
+            display: flex;
+            flex:1
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            background-color: #00000090 !important;
+           backdrop-filter: blur(8px);
+           border-radius: 10px !important
+        }
+       .line{
+            display: flex;
+            flex:1
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+<script>
+    const divObj=document.getElementById('time1');
+    setInterval(()=>{
+        const nowTime=getNowTime();
+        divObj.innerText=nowTime;
+    })
+    function getNowTime(){
+        const date=new Date();
+        const year=date.getFullYear();
+        const month=date.getMonth()+1;
+        const day=date.getDate();
+        const hour=date.getHours();
+        const minite=date.getMinutes();
+        const seconds=date.getSeconds();
+        return `${year}-${month}-${day} ${hour}:${minite}:${seconds<10?'0'+seconds:seconds}`
+    }
+</script>
