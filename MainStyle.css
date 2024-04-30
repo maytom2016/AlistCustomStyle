@@ -1,0 +1,143 @@
+
+
+<style>
+    /* 白天+通用模式设置 */
+    /* 白天模式背景 */
+    .hope-ui-light {
+        background-image: url(http://192.168.2.128:9010/images/0072Vf1pgy1foxkjgev08j31hc0u0qgl.jpg) !important;
+        background-attachment: fixed;
+        background-position: 100%;
+        background-size: cover;
+    }
+    /* 白天模式目录背景毛玻璃 */
+    .hope-c-PJLV-iiHckfM-css{
+        background-color: #ffffff72 !important;
+        backdrop-filter: blur(8px);
+       border-radius: 10px !important
+    }
+    /* 白天模式顶部栏目完全透明 */
+    .hope-center.hope-c-jKOUQW.hope-c-PJLV.hope-c-PJLV-ikaMhsQ-css{
+        background-color: rgba(255, 255, 255, .0);
+    }
+      /* 白天模式顶部中间毛玻璃 */
+    .hope-ui-light div.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iiOacaA-css{
+        background-color: #ffffff72 !important;
+        backdrop-filter: blur(8px);
+        border-radius: 10px !important
+    }
+    /* 搜索框透明 */
+.hope-ui-light div.hope-c-PJLV-ikEIIxw-css{background:rgba(255,255,255,0.2)!important;}
+    /* 隐藏搜索框crtl+k*/
+.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-ihYBJPK-css{display: none!important;}
+    /* 右上按钮透明 */
+.hope-menu__trigger.hope-c-bvjbhC.hope-c-PJLV.hope-c-PJLV-ieTGfmR-css{background-color: rgba(56, 78, 212,0) !important;}
+    /* 白天模式Readme框体毛玻璃 */
+.hope-c-PJLV.hope-c-PJLV-ikSuVsl-css{background-color: rgba(255, 255, 255, 0.5)!important;}
+    /* 白天模式主框体半透明 */
+      .hope-c-PJLV-igScBhH-css {background-color: rgba(255, 255, 255, 0.5)!important;}
+  /*标题栏圆角*/
+    .hope-ui-light .hope-breadcrumb__list,#root>div.hope-c-PJLV.hope-c-PJLV-iicyfOA-css>div>nav {border-radius: 10px !important}
+  /* 白天模式路径毛玻璃 */
+.hope-ui-light .hope-c-PJLV.hope-c-PJLV-iicyfOA-css>div>nav {background-color: rgba(255, 255, 255, .0);}
+ /* 右上视图按钮 */
+.footer.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV.hope-c-PJLV-ihQbspH-css{display: none!important;} 
+ /* 文本预览*/
+ pre{background-color: rgba(255, 255, 255, 0)!important;}
+.hope-c-PJLV-ijSQbqe-css{background-color: rgba(255, 255, 255, 0)!important;}
+</style>
+
+
+<style>
+
+    /* 黑夜模式背景 */
+    .hope-ui-dark {
+        background-image: url(http://192.168.2.128:9010/pic.php) !important;
+        background-attachment: fixed;
+        background-position: 100%;
+        background-size: cover;
+    }
+    /* 黑夜模式主框体毛玻璃 */
+    .hope-c-PJLV-iigjoxS-css {
+        background-color: #00000090 !important;
+        backdrop-filter: blur(8px);
+    }
+    /* 黑夜模式Readme框体毛玻璃 */
+    .hope-c-PJLV-iiuDLME-css{
+        background-color: #00000090 !important;
+        backdrop-filter: blur(8px);
+    }
+
+  /* 黑夜模式路径 */
+  .hope-ui-dark div.hope-c-PJLV.hope-c-PJLV-iicyfOA-css>div>nav {
+        background-color: rgba(255, 255, 255, .0);
+}
+ /* 黑夜模式目录背景 */
+   .hope-ui-dark div.hope-c-PJLV-iiHckfM-css{
+        background-color: #00000090 !important;
+        backdrop-filter: blur(8px);
+    }
+      /* 黑夜模式顶部中间毛玻璃 */
+    .hope-ui-dark div.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iiOacaA-css{
+        background: #00000090 !important;
+        backdrop-filter: blur(8px);
+        border-radius: 10px !important
+    }
+       /* 搜索框透明 */
+ .hope-ui-dark div.hope-c-PJLV-ikEIIxw-css{background:rgba(0,0,0,.5)!important}
+
+</style>
+
+<div class="line" ><div class="hope-c-PJLV hope-c-PJLV-iicyfOA-css"><div class="boxboard"><p class="hope-anchor hope-c-iHuheP hope-c-PJLV hope-c-PJLV-idrWMwW-css" id="time1" rel="noopener noreferrer"></p><span>|</span><a class="hope-anchor hope-c-iHuheP hope-c-PJLV hope-c-PJLV-idrWMwW-css" href="/@manage" target="_self">管理</a></div></div></div>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+          .hope-ui-light div.boxboard{
+            display: flex;
+            flex:1
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+           background-color: #ffffff72 !important;
+           backdrop-filter: blur(8px);
+           border-radius: 10px !important
+        }
+          .hope-ui-dark div.boxboard{
+            display: flex;
+            flex:1
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            background-color: #00000090 !important;
+           backdrop-filter: blur(8px);
+           border-radius: 10px !important
+        }
+       .line{
+            display: flex;
+            flex:1
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+<script>
+    const divObj=document.getElementById('time1');
+    setInterval(()=>{
+        const nowTime=getNowTime();
+        divObj.innerText=nowTime;
+    })
+    function getNowTime(){
+        const date=new Date();
+        const year=date.getFullYear();
+        const month=date.getMonth()+1;
+        const day=date.getDate();
+        const hour=date.getHours();
+        const minite=date.getMinutes();
+        const seconds=date.getSeconds();
+        return `${year}-${month}-${day} ${hour}:${minite}:${seconds<10?'0'+seconds:seconds}`
+    }
+</script>
+
